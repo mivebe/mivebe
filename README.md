@@ -1,16 +1,25 @@
 ### Hi there 👋
 
-<!--
-**mivebe/mivebe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### Tech stack
 
-Here are some ideas to get you started:
+**Frontend**
+- HTML, CSS, SASS
+- JavaScript, TypeScript
+- React, Next.js
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Graphics & animation**
+- Pixi.js
+- Three.js / React Three Fiber
+- Spine 2D
+- Adobe Animate
+- Blender
+
+**Backend**
+- Node.js
+- NestJS
+
+#### Projects
+
+- [Interviews](https://mivebe-interviews.netlify.app/) — deployed site
+
+Check repos for more
