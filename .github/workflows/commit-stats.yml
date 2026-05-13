@@ -1,0 +1,53 @@
+name: commit-stats
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  compute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: compute stats
+        id: stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/commit-stats.py
+
+      - name: render into README
+        run: |
+          python3 .github/scripts/render-stats.py \
+            --repos        "${{ steps.stats.outputs.repos }}" \
+            --commits      "${{ steps.stats.outputs.commits }}" \
+            --avg-lines    "${{ steps.stats.outputs.avg_lines_per_commit }}" \
+            --avg-files    "${{ steps.stats.outputs.avg_files_per_commit }}" \
+            --insertions   "${{ steps.stats.outputs.insertions }}" \
+            --deletions    "${{ steps.stats.outputs.deletions }}"
+
+      - name: commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add README.md
+          git commit -m "chore: refresh commit-shape stats"
+          git push
