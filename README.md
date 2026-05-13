@@ -147,9 +147,3 @@
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mivebe&theme=transparent" alt="Languages by commits" />
   <img height="180" src="https://streak-stats.demolab.com?user=mivebe&hide_border=true" alt="GitHub streak" />
 </div>
-
-#### Commit shape
-
-<!-- COMMIT-STATS:START -->
-*(populated on first workflow run)*
-<!-- COMMIT-STATS:END -->
