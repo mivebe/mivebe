@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1929,100:1976d2&height=200&section=header&text=Mihail%20Bezev&fontSize=50&fontColor=ffffff&desc=Slot%20Game%20Engineer%20%E2%80%A2%20Pixi.js%20%E2%80%A2%20Three.js%20%E2%80%A2%20GLSL&descSize=18&descAlignY=72&animation=fadeIn" width="100%" alt="banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1929,100:1976d2&height=200&section=header&text=Mihail%20Bezev&fontSize=50&fontColor=ffffff&desc=Slot%20Game%20Engineer%20%E2%80%A2%20Pixi.js%20%E2%80%A2%20Three.js%20%E2%80%A2%20React&descSize=18&descAlignY=72&animation=fadeIn" width="100%" alt="banner" />
 
 <div align="center">
 
@@ -149,6 +149,7 @@
 -->
 
 <div align="center">
-  <img height="180" src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/1-repos-per-language.svg" alt="Languages by repo" />
+  <img height="180" src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/0-profile-details.svg" alt="Profile details" />
   <img height="180" src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/2-most-commit-language.svg" alt="Languages by commits" />
+  <img height="180" src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/4-productive-time.svg" alt="Productive time" />
 </div>
