@@ -1,0 +1,35 @@
+name: generate profile summary cards
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+# avoid overlapping runs racing to push to main
+concurrency:
+  group: summary-cards
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # pinned to v0.7.0 (SHA) so the action code can't change under us.
+      # GITHUB_TOKEN here is the read-only PAT used ONLY to read repo data via
+      # the API (including private repos). The commit/push back to main is done
+      # with the built-in token configured by actions/checkout, which has the
+      # contents:write permission granted above.
+      - uses: vn7n24fzkq/github-profile-summary-cards@5055b27ac896c627043ead432f9b2fa973aa2c80
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 3
+          EXCLUDE: ''
+          AUTO_PUSH: true

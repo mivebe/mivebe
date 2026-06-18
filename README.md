@@ -20,7 +20,7 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28px" align="center" alt="rocket"/> About
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="22px" align="center" alt="desktop"/> Day job: a **slot game engine** + the titles built on it
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/1st%20Place%20Medal.png" width="22px" align="center" alt="medal"/> Living in **Pixi.js · TypeScript · Spine 2D · GLSL**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/1st%20Place%20Medal.png" width="22px" align="center" alt="medal"/> Living in **Pixi.js · TypeScript · Spine 2D · React**
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" width="22px" align="center" alt="brain"/> Exploring **AI-augmented workflows** (OpenAI + MCP)
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="22px" align="center" alt="lightning"/> Side quests: **ESP32 firmware** + custom PCBs
 
@@ -114,17 +114,17 @@
 
 **Closed-source / under NDA**
 
-- **Slot game engine** built from scratch — Pixi.js + TypeScript + Spine 2D + Howler.js + custom GLSL effects on top of an RGS-style server architecture. 10+ shipped titles, 80+ jurisdictions.
-- **Booking & events platform with AI-augmented workflow** — React Native (Expo) + Firebase + Node / Fastify, plus OpenAI + MCP for events automation. iOS / Play Store.
-- **B2G environmental-compliance suite** for a federal office — React web app + two React Native apps + consolidated PHP backend. Licensing, payments, offline support, PDF exports.
-- **HealthTech application** — React 19 SPA on Vite + Tailwind 4 with shadcn / Base UI primitives, React Router 7, Zustand for state, i18next for multi-language, `next-themes` for theming.
-- **IoT control systems** — embedded C / C++ on ESP32, BLE + MQTT to a HiveMQ cloud broker, custom PCBs (EasyEDA) for heating and refrigeration units.
+- **Slot game engine** built from scratch - Pixi.js + TypeScript + Spine 2D + Howler.js + custom GLSL effects on top of an RGS-style server architecture. 10+ shipped titles, 80+ jurisdictions.
+- **Booking & events platform with AI-augmented workflow** - React Native (Expo) + Firebase + Node / Fastify, plus OpenAI + MCP for events automation. iOS / Play Store.
+- **B2G environmental-compliance suite** for a federal office - React web app + two React Native apps + consolidated PHP backend. Licensing, payments, offline support, PDF exports.
+- **HealthTech application** - React 19 SPA on Vite + Tailwind 4 with shadcn / Base UI primitives, React Router 7, Zustand for state, i18next for multi-language, `next-themes` for theming.
+- **IoT control systems** - embedded C / C++ on ESP32, BLE + MQTT to a HiveMQ cloud broker, custom PCBs (EasyEDA) for heating and refrigeration units.
 
 **Public / sandboxes**
 
-- **[Interviews](https://mivebe-interviews.netlify.app/)** — deployed app, interview-prep content
-- **[Blender-CAD-CAM](https://github.com/mivebe/Blender-CAD-CAM)** — Blender tooling for CAD / CAM workflows
-- **[3D-stuff](https://github.com/mivebe/3D-stuff)** · **[2D-stuff](https://github.com/mivebe/2D-stuff)** · **[react-stuff](https://github.com/mivebe/react-stuff)** · **[next-stuff](https://github.com/mivebe/next-stuff)** · **[microcontrollers-stuff](https://github.com/mivebe/microcontrollers-stuff)** — sandboxes
+- **[Interviews](https://mivebe-interviews.netlify.app/)** - deployed app, interview-prep content
+- **[Blender-CAD-CAM](https://github.com/mivebe/Blender-CAD-CAM)** - Blender tooling for CAD / CAM workflows
+- **[3D-stuff](https://github.com/mivebe/3D-stuff)** · **[2D-stuff](https://github.com/mivebe/2D-stuff)** · **[react-stuff](https://github.com/mivebe/react-stuff)** · **[next-stuff](https://github.com/mivebe/next-stuff)** · **[microcontrollers-stuff](https://github.com/mivebe/microcontrollers-stuff)** - sandboxes
 
 ---
 
@@ -142,8 +142,17 @@
 
 ### Stats
 
+<!--
+  Cards below are generated daily by .github/workflows/summary-cards.yml using a
+  read-only PAT, so they include private-repo data. They are committed to
+  profile-summary-card-output/ on main - do not edit that folder by hand.
+-->
+
 <div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mivebe&theme=transparent" alt="Languages by repo" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mivebe&theme=transparent" alt="Languages by commits" />
-  <img height="180" src="https://streak-stats.demolab.com?user=mivebe&hide_border=true" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/0-profile-details.svg" alt="Profile details" />
+  <br/>
+  <img src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/2-most-commit-language.svg" alt="Languages by commits" />
+  <img src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/4-productive-time.svg" alt="Productive time" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=mivebe&hide_border=true" alt="GitHub streak" />
 </div>
