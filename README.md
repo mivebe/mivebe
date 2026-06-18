@@ -149,10 +149,6 @@
 -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/0-profile-details.svg" alt="Profile details" />
-  <br/>
-  <img src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/2-most-commit-language.svg" alt="Languages by commits" />
-  <img src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/4-productive-time.svg" alt="Productive time" />
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=mivebe&hide_border=true" alt="GitHub streak" />
+  <img height="180" src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/1-repos-per-language.svg" alt="Languages by repo" />
+  <img height="180" src="https://raw.githubusercontent.com/mivebe/mivebe/main/profile-summary-card-output/transparent/2-most-commit-language.svg" alt="Languages by commits" />
 </div>
