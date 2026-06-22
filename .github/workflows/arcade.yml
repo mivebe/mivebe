@@ -18,9 +18,23 @@ jobs:
     steps:
       - name: generate contribution graph SVGs
         uses: abozanona/pacman-contribution-graph@main
+        # this node20 action silently breaks under the runner's new node24
+        # default (exits 0 with no output). opt it back into node20.
+        env:
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman,breakout,galaga,puzzle-bobble'
+
+      - name: verify SVGs were generated
+        run: |
+          if [ -z "$(ls -A dist 2>/dev/null)" ]; then
+            echo "::error::dist/ is empty or missing - the generate step produced no SVGs."
+            echo "::error::usually means the node20 action silently broke under a newer node default."
+            exit 1
+          fi
+          echo "generated files:"
+          ls -la dist
 
       - name: push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
