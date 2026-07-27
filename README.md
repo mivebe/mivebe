@@ -39,6 +39,10 @@
 ![GSAP](https://img.shields.io/badge/GSAP-black?style=flat&logo=greensock&logoColor=00FF88)
 ![Howler.js](https://img.shields.io/badge/Howler.js-E92424?style=flat&logoColor=white)
 ![GLSL](https://img.shields.io/badge/GLSL-5586A4?style=flat&logo=opengl&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat&logo=webgl&logoColor=white)
+![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=flat&logo=webgpu&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat&logo=webassembly&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
 ![Adobe Animate](https://img.shields.io/badge/Adobe_Animate-FF61F6?style=flat&logo=adobe&logoColor=white)
 ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat&logo=blender&logoColor=white)
 
@@ -82,6 +86,7 @@
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazons3&logoColor=white)
 ![Contentful](https://img.shields.io/badge/Contentful-2478CC?style=flat&logo=contentful&logoColor=white)
@@ -120,11 +125,18 @@
 - **HealthTech application** - React 19 SPA on Vite + Tailwind 4 with shadcn / Base UI primitives, React Router 7, Zustand for state, i18next for multi-language, `next-themes` for theming.
 - **IoT control systems** - embedded C / C++ on ESP32, BLE + MQTT to a HiveMQ cloud broker, custom PCBs (EasyEDA) for heating and refrigeration units.
 
-**Public / sandboxes**
+**Public**
 
-- **[Interviews](https://mivebe-interviews.netlify.app/)** - deployed app, interview-prep content
+- **[2D-stuff](https://github.com/mivebe/2D-stuff)** ([live](https://mivebe.github.io/2D-stuff/)) - Pixi.js widgets, GLSL filters, WebGL2 shaders, radiance-cascade GI, WebGPU particles, Rust and Go wasm games, all under one dashboard
+- **[3D-stuff](https://github.com/mivebe/3D-stuff)** ([live](https://mivebe.github.io/3D-stuff/)) - three.js and react-three-fiber scenes: character controllers, portfolio rooms, kinetic type
+- **[Tessera](https://github.com/mivebe/tessera)** - real-time two-player mosaic strategy game. React 19 + Zustand + dnd-kit, PartyKit WebSocket rooms with server-side rule validation
+- **[CV Maker](https://github.com/mivebe/cv-maker)** ([live](https://mivebe.github.io/cv-maker/)) - local-first CV builder: one profile, many tailored variants, ATS check and real-text PDF export
+- **[Voyago](https://github.com/mivebe/voyago-app)** ([live](https://mivebe.github.io/voyago-app/)) - responsive multi-page travel site, hand-written Sass, no framework
+- **[Gatherly](https://github.com/mivebe/gatherly-frontend)** ([live](https://mivebe.github.io/gatherly-frontend/)) - events and reservations app, Expo + React Native, with an [Express / SQLite backend](https://github.com/mivebe/gatherly-backend)
+- **[Interviews](https://github.com/mivebe/interviews)** ([live](https://mivebe-interviews.netlify.app/)) - live-coding tasks and interview-prep apps
 - **[Blender-CAD-CAM](https://github.com/mivebe/Blender-CAD-CAM)** - Blender tooling for CAD / CAM workflows
-- **[3D-stuff](https://github.com/mivebe/3D-stuff)** · **[2D-stuff](https://github.com/mivebe/2D-stuff)** · **[react-stuff](https://github.com/mivebe/react-stuff)** · **[next-stuff](https://github.com/mivebe/next-stuff)** · **[microcontrollers-stuff](https://github.com/mivebe/microcontrollers-stuff)** - sandboxes
+
+**Sandboxes** - **[react-stuff](https://github.com/mivebe/react-stuff)** · **[next-stuff](https://github.com/mivebe/next-stuff)** · **[go-stuff](https://github.com/mivebe/go-stuff)** · **[python-stuff](https://github.com/mivebe/python-stuff)** · **[microcontrollers-stuff](https://github.com/mivebe/microcontrollers-stuff)**
 
 ---
 
